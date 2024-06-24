@@ -2,3 +2,32 @@ Footer{
     color: white;
     background-color: black;
 }
+
+.app{
+    height: auto;
+    max-width: 250px;
+}
+
+.social{
+    max-width: 150px !important;
+    margin-bottom: 10px;
+}
+
+.copyright p{
+    margin-top: 1em;
+    font-size: 14px;
+    margin-right: 5px;
+    color: grey;
+}
+
+
+.privacy{
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+@media  (max-width:768px) {
+    .privacy{
+        justify-content: flex-start !important;
+    }
+}
