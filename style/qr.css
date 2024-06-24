@@ -1,0 +1,27 @@
+.qr-container{
+    background-color: rgba(200, 200, 200, 0.115);
+}
+
+.qr-img{
+    display: none;
+}
+
+@media (max-width:992px) {
+    .qrbox-1{
+        margin-bottom: 20px;
+    }
+    .qr-img{
+        display: block;
+    }
+    .img-hide{
+        display: none;
+    }
+    .qrbox-1,.qrbox-2{
+        max-width: 300px;
+        border: 1px solid black;
+        justify-content: space-around;
+    }
+
+   
+    
+}

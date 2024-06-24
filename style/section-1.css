@@ -1,5 +1,6 @@
-
-
+section{
+    margin-bottom: 30px;
+}
 .section-content h1{
    font-size: 3.25rem ;
    font-weight: bold;
@@ -25,9 +26,6 @@
 
 @media (min-width:1190px){
 
-    .section-1,.section-2,.section-3{
-        height: 100vh;
-    }
     .img-container{
         padding: 30px;
     }
