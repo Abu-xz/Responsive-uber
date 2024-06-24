@@ -1,0 +1,78 @@
+main {
+  height: auto;
+  color: White;
+  background-color: black;
+}
+
+.head h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.location,
+.destination {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+}
+
+.bi-send-fill {
+  margin-left: auto;
+}
+
+.location input,
+.destination input {
+  border: none;
+}
+
+/* Media Queries start here */
+
+@media (min-width: 1000px) {
+  .heading-row {
+    padding-top: 150px;
+    padding-left: 100px;
+  }
+  .location {
+    max-width: 400px;
+  }
+  .destination {
+    max-width: 400px;
+  }
+
+  .location-row {
+    padding-left: 100px;
+  }
+  .button-row {
+    padding-left: 100px;
+  }
+
+  .img-container{
+    max-width: 558px;
+    height: auto;
+  }
+
+
+}
+
+@media (max-width: 992px) {
+  .head span {
+    display: none;
+  }
+  .location {
+    max-width: 400px;
+  }
+  .destination {
+    max-width: 400px;
+  }
+  .location input,
+.destination input {
+ max-width: 150px;
+}
+
+.img-container img{
+  max-width: 100%;
+  height: auto;
+}
+
+}
+
+/* Media Queries End here */

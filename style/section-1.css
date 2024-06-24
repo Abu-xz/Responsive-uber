@@ -1,0 +1,46 @@
+
+
+.section-content h1{
+   font-size: 3.25rem ;
+   font-weight: bold;
+}
+.section-content p{
+    font-weight: 200;
+}
+
+.buttons button{ 
+    border: none;
+}
+
+.start{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.account{
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+@media (min-width:1190px){
+
+    .section-1,.section-2,.section-3{
+        height: 100vh;
+    }
+    .img-container{
+        padding: 30px;
+    }
+    .section-content{
+        max-width: 450px;
+    }
+    
+
+}
+
+@media (max-width:1290px){
+    .img-container{
+        max-width: 100%;
+    }
+}
+
