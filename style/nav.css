@@ -19,6 +19,12 @@ nav {
   color: white;
 }
 
+.nav-menu{
+  color: white;
+  border: none;
+  background-color: black;
+}
+
 li {
   cursor: pointer;
   list-style: none;
