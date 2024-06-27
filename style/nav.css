@@ -44,10 +44,16 @@ li {
 }
 
 .sign-btn {
+  border: none;
+  transition: .5s;
   padding: 4px 10px;
   border-radius: 20px;
   align-items: center;
   cursor: pointer;
+}
+
+.sign-btn:hover{
+  background-color: rgb(174, 174, 174);
 }
 
 /* media Queries Start here */
